@@ -4,7 +4,7 @@
 This project aims to analyze the impact of Micro, Small, and Medium Enterprises (MSMEs) on the Indian economy. By examining key indicators such as employment, gross output, GDP contributions, and regional distribution, the project provides valuable insights into MSMEs' role in economic development. The analysis involves data preprocessing, statistical analysis, and visualization to uncover patterns and trends, supporting data-driven decisions for policy and economic growth.
 
 ## Table of Contents
-1. [Introduction](#introduction)
+1. [Introduction](#1. Introduction)
 2. [Dataset](#dataset)
 3. [Methodology](#methodology)
 4. [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)
