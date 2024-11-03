@@ -30,16 +30,6 @@ The dataset consists of records on MSME performance indicators from fiscal year 
 
 Additional data includes regional distribution of MSMEs, industry-wise segmentation, and statistical measures.
 
-*Data Loading Code Example*:
-```python
-import pandas as pd
-
-# Load dataset
-path = "path/to/EDA_OF_MSMEs_OF_INDIA.xlsx"
-MSME_Performance1 = pd.read_excel(path, sheet_name="Performance Data")
-MSME_Performance2 = pd.read_excel(path, sheet_name="GDP Data")
-```
-
 ## 3. Methodology
 1. **Data Cleaning**: Handled missing values, outliers, and standardized inconsistencies across numerical and categorical data.
 2. **Feature Engineering**: Derived new features such as annual growth rates for enterprises, employment, and gross output, as well as MSME employment share in the total population.
@@ -63,16 +53,6 @@ MSME_Performance2 = pd.read_excel(path, sheet_name="GDP Data")
 4. **Jarque-Bera Test**: Checked for normality in MSME GDP data (p-value > 0.05 confirmed normal distribution).
 5. **Clustering**: Clustered states based on MSME density, investment levels, and employment, identifying high-performing regions like Maharashtra, Gujarat, and Tamil Nadu.
 6. **Growth Rate Analysis**: Annual growth rates calculated for employment, enterprises, and gross output to identify growth patterns.
-
-### Code Example:
-```python
-from statsmodels.formula.api import ols
-import statsmodels.api as sm
-
-# Regression analysis for GDP prediction
-model = ols('India_GDP_in_US_Dollars ~ MSME_GDP_IN_US_DOLLARS', data=MSME_Performance2).fit()
-print(model.summary())
-```
 
 ## 6. Business Insights
 1. **Employment Opportunities**: MSMEs are major job providers, particularly in states like Uttar Pradesh and Maharashtra. Targeting these regions with skill development programs can enhance workforce readiness.
