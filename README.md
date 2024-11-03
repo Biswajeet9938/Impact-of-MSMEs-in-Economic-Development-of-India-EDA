@@ -4,16 +4,15 @@
 This project aims to analyze the impact of Micro, Small, and Medium Enterprises (MSMEs) on the Indian economy. By examining key indicators such as employment, gross output, GDP contributions, and regional distribution, the project provides valuable insights into MSMEs' role in economic development. The analysis involves data preprocessing, statistical analysis, and visualization to uncover patterns and trends, supporting data-driven decisions for policy and economic growth.
 
 ## Table of Contents
-1. Introduction  
-2. Dataset  
-3. Methodology  
-4. Exploratory Data Analysis (EDA)  
-5. Statistical Analysis  
-6. Business Insights  
-7. Conclusion  
-8. Requirements  
-9. License  
-
+1. [Introduction](#introduction)
+2. [Dataset](#dataset)
+3. [Methodology](#methodology)
+4. [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)
+5. [Statistical Analysis](#statistical-analysis)
+6. [Business Insights](#business-insights)
+7. [Conclusion](#conclusion)
+8. [Requirements](#requirements)
+   
 ## 1. Introduction
 In India, MSMEs play a critical role in fostering economic growth, generating employment, and supporting regional development. This project leverages statistical methods and data analysis techniques to explore MSME trends, identifying their contribution to various economic metrics. The results are intended to guide policymakers, stakeholders, and businesses in making strategic decisions that enhance the MSME sector's contribution to the economy.
 
@@ -87,15 +86,9 @@ The project provides valuable insights into the MSME sector’s role in the Indi
 
 ## 8. Requirements
 - **Python 3.x**
+- **Jupyter Notebook**
 - **Libraries**: pandas, numpy, matplotlib, seaborn, statsmodels, scipy
 - **Installation**:
    ```bash
    pip install pandas numpy matplotlib seaborn statsmodels scipy
-   ```
-
-## 9. License
-This project is licensed under the MIT License.
-
---- 
-
-This revision includes bar plots and Pareto charts as specified. Let me know if you need further adjustments.
+   
